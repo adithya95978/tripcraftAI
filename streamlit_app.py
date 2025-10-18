@@ -3,7 +3,7 @@ import requests
 import datetime
 import time
 
-BASE_URL = "http://localhost:8000"  # Backend endpoint
+BASE_URL = "http://localhost:8000"  
 
 st.set_page_config(
     page_title="🌍 Travel Planner Agentic Application",
