@@ -1,35 +1,7 @@
-# tripcraftAI
-Here is a comprehensive README file for your `tripcraftAI` repository, generated based on the structure and content of the files you provided.
-
------
 
 # 🌍 TripCraftAI
 
 TripCraftAI is an intelligent, agentic application designed to act as a personal AI Travel Agent and Expense Planner. It leverages a multi-agent workflow (using LangGraph) and a suite of external tools to build comprehensive, real-time travel itineraries, including detailed cost breakdowns, based on simple user prompts.
-
-## 📸 Screenshots
-
-Here is the application in action, planning a 5-day trip to Udaipur:
-
-| Main Interface | Generated Itinerary | Cost & Weather |
-| :---: | :---: | :---: |
-|  |  |  |
-
-## ✨ Features
-
-  * **Agentic Planning:** Utilizes a core agent built with LangGraph to dynamically research, plan, and structure travel itineraries.
-  * **Real-time Data:** Fetches live data for crucial planning aspects:
-      * **Places:** Attractions, restaurants, activities, and transport modes via Google Places API (with Tavily as a fallback).
-      * **Weather:** Current weather and multi-day forecasts from OpenWeatherMap.
-  * **Expense Management:** Automatically calculates:
-      * Total estimated trip costs.
-      * Daily budget estimates.
-      * Live currency conversions.
-  * **Dual Interface:**
-      * **Streamlit UI:** A user-friendly web interface for easy interaction.
-      * **FastAPI Backend:** A robust API endpoint for programmatic access.
-  * **Persistent Memory:** Uses SQLite to maintain conversation history and context for follow-up questions.
-  * **Dockerized:** Comes with a `Dockerfile` for easy and consistent deployment.
 
 ## 🛠️ Tech Stack & Architecture
 
@@ -170,7 +142,3 @@ tripcraftAI/
 ├── requirements.txt      # Python dependencies
 └── streamlit_app.py      # Streamlit frontend application
 ```
-
-## 📜 License
-
-This project is licensed under the Apache License 2.0. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
